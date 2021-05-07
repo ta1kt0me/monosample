@@ -3,11 +3,11 @@ require_relative "lib/news_api/version"
 Gem::Specification.new do |spec|
   spec.name        = "news_api"
   spec.version     = NewsApi::VERSION
-  spec.authors     = ["TODO: Write your name"]
-  spec.email       = ["TODO: Write your email address"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of NewsApi."
-  spec.description = "TODO: Description of NewsApi."
+  spec.authors     = ["Write your name"]
+  spec.email       = ["Write your email address"]
+  spec.homepage    = "http://example.com"
+  spec.summary     = "Summary of NewsApi."
+  spec.description = "Description of NewsApi."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "http://example.com"
+  spec.metadata["changelog_uri"] = "http://example.com"
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
