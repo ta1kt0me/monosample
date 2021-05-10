@@ -1,0 +1,3 @@
+eval_gemfile File.join( File.dirname(__FILE__), "../Gemfile")
+
+gem 'foods_api', path: '../engines/foods_api'
