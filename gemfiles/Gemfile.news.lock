@@ -4,6 +4,12 @@ PATH
     news_api (0.1.0)
       rails (~> 6.1.3, >= 6.1.3.2)
 
+PATH
+  remote: /Users/greg/dev/ruby/rails/monosample/engines/foods_api
+  specs:
+    foods_api (0.1.0)
+      rails (~> 6.1.3, >= 6.1.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -179,6 +185,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   dotenv-rails
+  foods_api!
   foreman
   jb
   listen (~> 3.3)
