@@ -1,0 +1,5 @@
+
+eval_gemfile File.join(File.dirname(__FILE__), "../Gemfile")
+
+gem 'foods_api', path: File.join(File.dirname(__FILE__), "../engines/foods_api")
+gem 'news_api', path: File.join(File.dirname(__FILE__), "../engines/news_api")
