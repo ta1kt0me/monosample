@@ -4,7 +4,7 @@ module NewsApi
 
       puts "will subcrbie eat.foods"
 
-      color = FOODS_SERVICE_PUB_SUB.instrument('cat.foods', { id: 1 })
+      color = FoodsApi::HotDog.new.mustard
       p color
 
       render json: { news: ['abc'], color: color }
